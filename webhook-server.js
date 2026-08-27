@@ -172,7 +172,7 @@ app.post('/webhook', async (req, res) => {
       bakeryType: payload.bakeryType || 'Lynher',
       timestamp: new Date().toISOString(),
       summary: report.summary,
-      reportFile: `simplified-report-${Date.now()}.json`
+      reportFile: 'simplified-report.json'
     });
 
     // Log summary
