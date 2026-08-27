@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 require('dotenv').config();
 
-const SchedulingService = require('./scheduling-service');
+const SchedulingService = require('./scheduling-service-single-notification');
 
 const app = express();
 const PORT = process.env.PORT || 5026;
