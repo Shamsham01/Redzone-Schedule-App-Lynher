@@ -15,3 +15,8 @@ npm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+# Runtime / private configuration
+bakery-locations.json
+locations-cache.json
+products-cache.json
+simplified-report-*.json
